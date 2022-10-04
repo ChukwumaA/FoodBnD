@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>c2cbc029-4477-41f4-8dc6-ab5b93de2b94</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\foodbnd.contracts\FoodBnD.Contracts.csproj" />
+    <ProjectReference Include="..\foodbnd.application\FoodBnD.Application.csproj" />
+    <ProjectReference Include="..\foodbnd.infrastructure\FoodBnD.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

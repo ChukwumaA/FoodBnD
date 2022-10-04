@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodBnD.Api", "FoodBnD.Api\FoodBnD.Api.csproj", "{4411021D-4B0B-4932-8296-522CB5B026C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodBnD.Application", "FoodBnD.Application\FoodBnD.Application.csproj", "{C2C8E311-FB5D-47FB-A29B-FD3818D5301F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodBnD.Contracts", "FoodBnD.Contracts\FoodBnD.Contracts.csproj", "{E1D00C67-0859-4525-9C50-20F54CCA7F2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodBnD.Domain", "FoodBnD.Domain\FoodBnD.Domain.csproj", "{3F05D241-1A13-4B9E-92A0-AF60A1CFDB5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodBnD.Infrastructure", "FoodBnD.Infrastructure\FoodBnD.Infrastructure.csproj", "{B387CE64-AFB2-49DC-92D7-A40C84607279}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE 
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4411021D-4B0B-4932-8296-522CB5B026C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4411021D-4B0B-4932-8296-522CB5B026C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4411021D-4B0B-4932-8296-522CB5B026C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4411021D-4B0B-4932-8296-522CB5B026C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2C8E311-FB5D-47FB-A29B-FD3818D5301F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2C8E311-FB5D-47FB-A29B-FD3818D5301F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2C8E311-FB5D-47FB-A29B-FD3818D5301F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2C8E311-FB5D-47FB-A29B-FD3818D5301F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1D00C67-0859-4525-9C50-20F54CCA7F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1D00C67-0859-4525-9C50-20F54CCA7F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1D00C67-0859-4525-9C50-20F54CCA7F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1D00C67-0859-4525-9C50-20F54CCA7F2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F05D241-1A13-4B9E-92A0-AF60A1CFDB5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F05D241-1A13-4B9E-92A0-AF60A1CFDB5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F05D241-1A13-4B9E-92A0-AF60A1CFDB5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F05D241-1A13-4B9E-92A0-AF60A1CFDB5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B387CE64-AFB2-49DC-92D7-A40C84607279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B387CE64-AFB2-49DC-92D7-A40C84607279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B387CE64-AFB2-49DC-92D7-A40C84607279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B387CE64-AFB2-49DC-92D7-A40C84607279}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
